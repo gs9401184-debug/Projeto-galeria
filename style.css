@@ -7,8 +7,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  /* Fundo degradê com 3 cores */
-  background: linear-gradient(135deg, #4d1185, #472801, #940d0d);
+  background: radial-gradient(circle, #8b0000, #000000); 
   color: #fff;
 }
 
@@ -21,7 +20,7 @@ header {
 
 .Titulo h1 {
   margin: 0;
-  color: #ffffff;
+  color: #c27253;
 }
 
 /* ===== GALERIA ===== */
@@ -44,7 +43,7 @@ header {
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #e50914;
+  box-shadow: 0 0 15px #c27253;
 }
 
 .card img {
@@ -53,7 +52,7 @@ header {
 }
 
 .card h2 {
-  color: #ffffff;
+  color: #c27253;
   margin-top: 10px;
 }
 
