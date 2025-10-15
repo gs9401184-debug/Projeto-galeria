@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle, #8b0000, #000000);
+  color: #fff;
+}
+
+/* ===== CABEÇALHO ===== */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* ===== CONTEÚDO PRINCIPAL ===== */
+main {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* mantém alinhado no topo */
+  gap: 40px; /* espaço entre os elementos */
+  min-height: 100vh;
+  text-align: left;
+}
+
+/* ===== CARD ===== */
+.card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  display: flex; /* <-- faz imagem e texto ficarem lado a lado */
+  align-items: center;
+  gap: 20px; /* espaço entre imagem e texto */
+  padding: 20px;
+  width: 700px; /* aumenta um pouco a largura */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #8b0000;
+}
+
+.card h2 {
+  color: #e50914;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #ccc;
+  line-height: 1.5;
+}
